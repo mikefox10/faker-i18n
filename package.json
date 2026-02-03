@@ -1,0 +1,38 @@
+{
+  "name": "faker-lite",
+  "version": "0.1.0",
+  "description": "Minimal fake data generator by field (ES, EN, PT, FR, DE, RU, JA, ZH, TR)",
+  "author": "mikefox10 <mikefoxtrotboa@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+ "files": [
+    "dist/**/*.js",
+    "dist/**/*.d.ts"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "vitest",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "faker",
+    "mock",
+    "fake-data",
+    "testing",
+    "typescript"
+  ],
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0",
+    "@types/node": "^20.11.0"
+  }
+}

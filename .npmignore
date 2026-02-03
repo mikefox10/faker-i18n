@@ -1,0 +1,15 @@
+# Source
+src
+**/*.ts
+
+# Config
+tsconfig.json
+vitest.config.ts
+
+# Tests
+test
+tests
+__tests__
+
+# Misc
+node_modules
