@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { faker } from "../src";
 
-describe("faker-lite", () => {
+describe("faker-i18n", () => {
   it("switches locale dynamically", () => {
     const f = faker();
     f.setLocale("es");

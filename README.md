@@ -1,41 +1,33 @@
-# faker-lite
+# faker-i18n
 
-✨ **faker-lite** is a lightweight library for generating fake data in a simple, fast, and dependency-free way.  
+✨ **faker-i18n** is a lightweight library for generating fake data in a simple, fast, and dependency-free way.  
 Perfect for **tests**, **seeders**, **mocking**, and **prototyping**.
 
 
-## 🌍 Supported Locales
+### 🌍 Supported Locales
 
 Currently supported locales:
 
 - EN – English (Default)
-
 - ES – Spanish
-
 - PT – Portuguese
-
 - FR – French
-
 - DE – German
-
 - RU – Russian
-
 - JA – Japanese
-
 - ZH – Chinese
-
 - TR – Turkish
 
 ## 📦 Installation
 
 ```bash
-npm install faker-lite
+npm install faker-i18n
 ```
 
 ## Basic Usage
 
 ```bash
-import { faker } from "faker-lite";
+import { faker } from "faker-i18n";
 
 const fake = faker("EN");
 
@@ -50,7 +42,6 @@ console.log(fake.jobTitle());    // Designer
 ```bash
 fake.firstName();   // Mike
 fake.lastName();    // Taylor
-fake.fullName();    // Mike Taylor
 fake.company();     // Soft Inc
 fake.jobTitle();    // Designer
 ```
@@ -89,15 +80,11 @@ fake.lorem();              // Lorem ipsum dolor sit amet
 
 ## 🎯 Project Goals
 
-🪶 Lightweight and fast
-
-📦 No unnecessary dependencies
-
-🌍 Multi-language support
-
-🧪 Ideal for tests and mocks
-
-💡 Simple and predictable API
+- 🪶 Lightweight and fast
+- 📦 No unnecessary dependencies
+- 🌍 Multi-language support
+- 🧪 Ideal for tests and mocks
+- 💡 Simple and predictable API
 
 
 
@@ -105,11 +92,8 @@ fake.lorem();              // Lorem ipsum dolor sit amet
 Feel free to open issues or pull requests for:
 
 - New locales
-
 - New generators
-
 - Performance improvements
-
 - Bug fixes
 
 

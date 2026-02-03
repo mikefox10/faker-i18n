@@ -1,5 +1,5 @@
 {
-  "name": "faker-lite",
+  "name": "faker-i18n",
   "version": "0.1.0",
   "description": "Minimal fake data generator by field (ES, EN, PT, FR, DE, RU, JA, ZH, TR)",
   "author": "mikefox10 <mikefoxtrotboa@gmail.com>",
