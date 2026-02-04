@@ -1,6 +1,6 @@
 # faker-i18n
 
-✨ **faker-i18n** is a lightweight library for generating fake data in a simple, fast, and dependency-free way.  
+✨ **faker-i18n** is a lightweight (~14kB) library for generating fake data in a simple, fast, and dependency-free way.
 Perfect for **tests**, **seeders**, **mocking**, and **prototyping**.
 
 

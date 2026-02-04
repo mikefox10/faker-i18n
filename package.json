@@ -6,7 +6,15 @@
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
- "files": [
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikefox10/faker-i18n"
+  },
+  "homepage": "https://github.com/mikefox10/faker-i18n#readme",
+  "bugs": {
+    "url": "https://github.com/mikefox10/faker-i18n/issues"
+  },
+  "files": [
     "dist/**/*.js",
     "dist/**/*.d.ts"
   ],
